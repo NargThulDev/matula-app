@@ -10,13 +10,13 @@ import json
 st.set_page_config(page_title="Satélite e Mapas", page_icon="🗺️", layout="wide")
 ARQUIVO_DB = 'banco_lavoura.db'
 
-# --- DESIGN: AGTECH PREMIUM ---
+# ⚠️ CORREÇÃO APLICADA AQUI NO CSS (header removido do visibility: hidden)
 st.markdown("""
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
     .stApp { background-color: #F4F7F6; font-family: 'Inter', sans-serif !important; }
-    header, footer, #MainMenu, [data-testid="stToolbar"] { visibility: hidden; }
     header { background-color: transparent !important; }
+    footer, #MainMenu, [data-testid="stToolbar"] { visibility: hidden; }
     h1, h2, h3, h4, h5, h6 { color: #1A3626 !important; font-weight: 700 !important; }
     
     .top-header {
